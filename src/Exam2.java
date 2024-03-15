@@ -3,10 +3,10 @@ public class Exam2 {
 
         for(int height = 3; height <=7; height = height + 2) {
             for (int i = 0; i < height; ++i) {
-                for (int j = 0; j < height - i - 1; ++j) {
+                for (int j = 0; j < height - i - 1; j++) {
                     System.out.print(" ");
                 }
-                for (int k = 0; k < 2 * i + 1; ++k) {
+                for (int k = 0; k < 2 * i + 1; k++) {
                     System.out.print("*");
                 }
                 System.out.println();
